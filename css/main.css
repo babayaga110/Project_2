@@ -1,0 +1,167 @@
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+	background: url(https://image.winudf.com/v2/image1/Y29tLnFhbmplcnVtYmkud2hpdGUud2hpdGViYWNrZ3JvdW5kX3NjcmVlbl8wXzE1NDE5NzAyMDlfMDQ0/screen-0.jpg?fakeurl=1&type=.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: auto 0;
+	
+  }
+
+  /*
+===================================
+Home
+===================================
+*/
+#box{
+    box-shadow: 5px 5px 10px #999;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    width: 80%;
+    
+    }
+#main{
+    margin: auto 0;
+    width: auto 0;    
+
+}
+#title{
+    
+        text-align: center;
+}
+#img-div{
+        margin: 20px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+}
+#image{
+        display: block;
+        min-width: 220;
+        max-width: 100%;
+        height: auto;
+}
+img{
+  box-shadow: 5px 5px 10px #999;
+        min-width: 220;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+}
+#img-caption{
+    padding: 10px;
+    font-size: 24px;
+	line-height: 44px;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+#tribute-info{
+    font-size: 20px;
+	line-height: 35px;
+}
+#container{
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+
+
+
+/*
+===================================
+Typography
+===================================
+*/
+
+h1, h2, h3, h4 {
+	color: #648880;
+  }
+  
+  h1, h3, h4, h5, p {
+	  margin-bottom: 22px;
+  }
+  
+  h1 {
+	font-size: 36px;
+	line-height: 44px;
+  }
+  h2 {
+	font-size: 24px;
+	line-height: 44px;
+	font-family: 'Courier New', Courier, monospace;
+  }
+  h3 {
+    font-size: 21px;
+    color: black;
+  }
+  h4 {
+	font-size: 18px;
+  }
+  h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+  }
+  
+  strong {
+	font-weight: bold;
+  }
+  cite,
+  em {
+    font-style: italic;
+    font-size: 17px;
+  }
+/*
+===================================
+Primary Header
+===================================
+*/
+#main-header{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+/*
+	========================================
+	Links
+	========================================
+*/
+
+a{
+      color: indigo;
+  }
+
+  #tribute-link{
+    text-decoration: underline;
+}
+ #tribute-link:hover{
+     color: red;
+
+ }
+ /*
+===================================
+Primary Footer
+===================================
+*/
+
+#main-footer{
+    text-align: center;
+    font-size: 20px;
+    line-height: 5px;
+    padding-bottom: 20px;
+}
